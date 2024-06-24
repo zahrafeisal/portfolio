@@ -1,0 +1,172 @@
+#wholebody {
+    /* background-color: #0D1B28; */
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    background: url(../images/vector-abstract-technology-background-technology-digital-world-of-business-information-futuristic-blue-virtual-graphic-interface.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contacts {
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tops {
+    display: inline;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 10px;
+    float: right;
+    font-size: 18px;
+}
+
+.port {
+    color: grey;
+    float: left;
+    display: inline;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    font-size: 27px;
+}
+
+/* unvisited links */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited links */
+a:visited {
+    color: white;
+}
+
+/* mouse overlink */
+a:hover {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: lightskyblue;
+}
+
+.header1 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.header2 {
+    color: lightskyblue;
+    padding-bottom: 35px;
+}
+
+.headerab1 {
+    color: lightskyblue;
+    padding-bottom: 15px;
+}
+
+.headerab2 {
+    color: lightskyblue;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+#textsection {
+    margin-top: 100px;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+}
+
+#cv {
+    color: white;
+    margin-top: 50px;
+    background-color: lightskyblue;
+    transition-duration: 0.2s;
+    width: 150px;
+}
+
+#cv:hover {
+    background-color: #0D1B28;
+    color: white;
+}
+
+/* added */
+#cv span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+#cv span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.2s;
+}
+
+#cv:hover span {
+    padding-right: 25px;
+}
+
+#cv:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#cv:active {
+    background-color: #0D1B28;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/* added */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.social-icon {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+}
+
+.social-icon:hover {
+    color: lightgrey;
+}
+
+/* added
+.social-icon:active {
+    background-color: white;
+    box-shadow: 0 2px #0D1B28;
+    transform: translateY(4px);
+} */
+

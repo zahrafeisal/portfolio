@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'navsection navsection navsection navsection'
+    'textsection textsection textsection imgsection'
+    'social-icons social-icons social-icons social-icons'
+     ;
+}
+
+
+#navsection {
+    grid-area: navsection;
+}
+
+#textsection {
+    grid-area: textsection;
+}
+
+#imgsection {
+    grid-area: imgsection;
+}
+
+.social-icons {
+    grid-area: social-icons;
+}
+
+@media only screen and (max-width: 600px){
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'navsection navsection navsection navsection'
+        'textsection textsection textsection imgsection'
+        'social-icons social-icons social-icons social-icons'
+         ;
+    }
+}
